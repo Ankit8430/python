@@ -1,0 +1,15 @@
+import random
+rand_num = random.randint(1, 10)
+count=0
+while True:
+    user_num=int(input("Enter a number between 1 and 10: "))
+    count+=1
+    if user_num==rand_num:
+        print("You guessed it right!")
+        break
+    elif user_num<rand_num:
+        print("Your guess is too low. Try again.")
+    else:
+        print("Your guess is too high. Try again.")
+
+print("You guessed the number in ",count," attempts.")

@@ -1,0 +1,10 @@
+tup=(87,64,95)
+print(tup[0])#87
+print(tup[0:1])#87,
+tup1=(87)
+print(type(tup1))
+tup2=(89,)
+print(type(tup2))
+print(tup.index(64))#1
+tup3=(2,1,3,5,1)
+print(tup3.count(1))#2

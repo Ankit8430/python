@@ -1,0 +1,26 @@
+"""
+marks=[94.5,87.5,64.5,45.1]
+print(marks)
+print(type(marks))
+print(marks[0])#94.5
+print(marks[3])#45.1
+print(len(marks))#4
+student=["Ankit",34,"Gupta"]
+print(student)
+print(marks[1:2])#87.5
+print(marks[2:])#64.5,45.1
+"""
+list=[2,1,3]
+list.append(4)
+print(list) #[2,1,3,4]
+list.sort()
+print(list)#[1,2,3,4]
+list.sort(reverse=True)
+print(list)#[4,3,2,1]
+list.insert(2,5)
+print(list)#[4,3,5,2,1]
+list=[2,1,4,1]
+list.remove(1)
+print(list)#[2,4,1]
+list.pop(1)
+print(list)#[2,1]
